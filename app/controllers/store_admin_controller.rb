@@ -1,8 +1,6 @@
 class StoreAdminController < ApplicationController
     layout "admin"
 
-
-
     def orders
         render :layout => 'order_administration'
     end
@@ -10,4 +8,4 @@ class StoreAdminController < ApplicationController
     def invoice
         render :layout => false
     end
-end 
+end
